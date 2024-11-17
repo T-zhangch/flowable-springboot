@@ -1,6 +1,6 @@
 ###################  项目启动端口  ###################
 server:
-  port: 8088
+  port: 8080
 
 ###################  spring配置  ###################
 spring:
@@ -10,9 +10,9 @@ spring:
 ###################  开发环境的profile  ###################
 ##########################################################
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/zch
+    url: jdbc:mysql://127.0.0.1:3306/test
     username: root
-    password: 1234
+    password: 123456
 
 logging:
   level.root: info
